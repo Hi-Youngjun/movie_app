@@ -1,0 +1,26 @@
+.movie .movie_data{
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.movie img {
+    max-width: 300px;
+    max-height: 300px;
+    margin: 10px;
+    position: relative;
+}
+
+.movie .movie_data .movie_genres {
+    list-style: none;
+    display:flex;
+    padding: 0;
+}
+
+.movie .movie_data .movie_year {
+    opacity: 0.6;
+}
+
+.movie .movie_data .movie_genres li {
+    margin-right: 10px;
+    opacity: 0.4;
+}
